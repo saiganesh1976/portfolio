@@ -253,7 +253,7 @@ a
 @media screen and (max-width: 768px) {
   .main {
     flex-direction: row;
-    height: auto;
+    height: 100vh;
     width: auto;
     display: block;
   }
@@ -311,7 +311,7 @@ a
 @media screen and (max-width: 768px) {
   .about {
     flex-direction: row;
-    height: auto;
+    height: 100vh;
     width: auto;
     display: block;
   }
@@ -364,7 +364,7 @@ a
 @media screen and (max-width: 768px) {
   .skills
   {
-    height: auto;
+    height: 100vh;
     width: auto;
     padding: 0px 12px;
   }
@@ -408,7 +408,7 @@ transform: scale(1.1);
 @media screen and (max-width: 768px) {
   .Education
   {
-    height: auto;
+    height: 100vh;
     width: auto;
     padding: 0px 30px;
   }
@@ -467,7 +467,7 @@ transform: scale(1.1);
 @media screen and (max-width: 768px) {
   .Experiences
   {
-    height: auto;
+    height: 100vh;
     width: auto;
     padding: 0px 30px;
   }
@@ -544,7 +544,7 @@ img{
   .Projects
   {
     width: auto;
-    height: auto;
+    height: 100vh;
     padding: 0 30px;
   }
   .Projects h2
@@ -645,7 +645,7 @@ img{
 @media screen and (max-width: 768px) {
   .contact
   {
-    height: auto;
+    height: 100vh;
     width: auto;
     display: block;
     text-align: center;

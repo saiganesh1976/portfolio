@@ -311,7 +311,7 @@ a
 @media screen and (max-width: 768px) {
   .about {
     flex-direction: row;
-    height: 100vh;
+    height: auto;
     width: auto;
     display: block;
   }
@@ -408,7 +408,7 @@ transform: scale(1.1);
 @media screen and (max-width: 768px) {
   .Education
   {
-    height: 100vh;
+    height: auto;
     width: auto;
     padding: 0px 30px;
   }
@@ -435,7 +435,7 @@ transform: scale(1.1);
 {
   width: auto;
   padding: 90px 0px;
-  height: 100vh;
+  height: auto;
   color: #111111;
 }
 .section-experience
@@ -467,7 +467,7 @@ transform: scale(1.1);
 @media screen and (max-width: 768px) {
   .Experiences
   {
-    height: 100vh;
+    height: auto;
     width: auto;
     padding: 0px 30px;
   }
@@ -544,7 +544,7 @@ img{
   .Projects
   {
     width: auto;
-    height: 100vh;
+    height: auto;
     padding: 0 30px;
   }
   .Projects h2
@@ -645,7 +645,7 @@ img{
 @media screen and (max-width: 768px) {
   .contact
   {
-    height: 100vh;
+    height: auto;
     width: auto;
     display: block;
     text-align: center;

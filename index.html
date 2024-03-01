@@ -3,40 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"> <!--boot-strap-->
     <title>My Portfolio | SaiGanesh </title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
 <!-- Nav Bar -->
-<nav id="navbar" class="nav">
-  <div class="title">
-   <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank" class="title-css"> <i class="bi bi-person-circle"> </i>&nbsp; SaiGanesh_Ratnala </a>
-  </div>
-  <div class="top">
-    <ul class="nav-list">
-      <li><a href="#1">Home</a></li>
-      <li><a href="#2">About</a></li>
-      <li><a href="#3">Skills</a></li>
-      <li><a href="#4">Education</a></li>
-      <li><a href="#5">Experiences</a></li>
-      <li><a href="#6">Projects</a></li>
-      <li><a href="#7">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-<!-- Nav Bar Ends -->
+<nav class="navbar fixed-top navbar-expand-lg">
+  <h1>
+    <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank" class="title-css">SaiGanesh_Ratnala</a>
+  </h1>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<!-- START WELCOME SECTION -->
-<section id="1" class="main">
-  <div class="main-text">
-    <h3 class="main-t1">Hello There,</h3>
-    <h2 class="main-t2">I'm SaiGanesh <span style="color:#7697a3;">Ratnala</span></h2>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#2">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#3">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#4">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#5">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#6">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#7">Contact</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+
+<!-- WELCOME SECTION -->
+<section id="1" class="container-fluid main" >
+  <div class="main-left">
+    <h2 class="main-left-text">Hello There,</h2>
+    <h1>I'm SaiGanesh Ratnala </h1>
     <p>undergrad at SNIST-HYD</p>
-    <br>
-    <br>
-    <button class="main-button"><a href="./SaiGanesh_Resume.pdf" download>My Resume</a></button>
+    <button class="btn btn-dark button"><a href="./SaiGanesh_Resume.pdf" download><i class="bi bi-download"></i> &nbsp; My Resume</a></button>
   </div>
   <div class="main-image">
     <img src="./Images/Sai Ganesh.jpg" alt="profile"  width="350px" height="350px"style="border-radius: 50%;">
@@ -45,228 +68,257 @@
     </div>
   </div>
 </section>
-<!-- END WELCOME SECTION -->
 
-<!-- About Me -->
-<section id="2">
-  <h2 style="padding-top:90px;">About Me</h2>
-    <div class="about">
-      <div>
+<!-- ABOUT ME SECTION -->
+<section id="2" class="about">
+  <h2>About Me</h2>
+  <br>
+  <br>
+      <div class="about-container">
         <img src="./Images/Sai Ganesh.jpg" class="image" alt="Profile" width="350px" height="350px" style="border-radius: 50px;">
-      </div>
-      <div class="abt">
-        <p>
-          I am <strong>SaiGanesh</strong> student of Electronics and Computer Engineering at Sreenidhi Institute of Science and Technology, expected to graduate in 2025. I have a keen interest in Robotics, Web Development, I have acquired multiple skills in these domains.
-          I am always eager to learn new things, challenge myself, and collaborate with others who share my passion and enthusiasm.
-        </p>
-        <br>
-        <p>
-          Age: 20 <br>
-          <a href="tel:+91 6305279018">Phone: +91 630 527 9018</a> <br>
-          <a href="mailto:saiganeshratnala01@gmail.com">Email: saiganeshratnala01@gmail.com</a> <br>    
-          <a href="https://maps.app.goo.gl/67CNktbw4iwKV6rRA">Address: H. NO : 8-199/11, Sarapaka(V), Telangana- 507 128</a>
-        </p>
+        <div class="about-text">
+          <p>
+            I am <strong>SaiGanesh</strong> student of Electronics and Computer Engineering at Sreenidhi Institute of Science and Technology, expected to graduate in 2025. I have a keen interest in Robotics, Web Development, I have acquired multiple skills in these domains.
+            I am always eager to learn new things, challenge myself, and collaborate with others who share my passion and enthusiasm.
+          </p>
+          <p>
+            Age: 20 <br>
+            <a href="tel:+91 6305279018">Phone: +91 630 527 9018</a> <br>
+            <a href="mailto:saiganeshratnala01@gmail.com">Email: saiganeshratnala01@gmail.com</a> <br>    
+            <a href="https://maps.app.goo.gl/67CNktbw4iwKV6rRA">Address: H. NO : 8-199/11, Sarapaka(V), Telangana- 507 128</a>
+          </p>
+        </div>
       </div>
     </div>
 </section>
-<!-- End of About Me -->
 
-<section id="3" class="skills">
+<!-- SKILLS SECTION -->
+<section id="3" class="Skills">
   <h2>My Skills</h2>
-  <div class="skills-main">
+    
+  <div class="Skill-reading">
     <div class="skill-section">
       <span style="font-size: 18px;">HTML</span>
       <div class="total">
         <div class="myper" style="width: 90%;">90%</div>
       </div>
     </div>
-    <div class="skill-section">
+
+   <div class="skill-section">
       <span style="font-size: 18px;">CSS</span>
       <div class="total">
         <div class="myper" style="width: 80%;">80%</div>
       </div>
     </div>
+
     <div class="skill-section">
       <span style="font-size: 18px;">JavaScript</span>
       <div class="total">
-        <div class="myper" style="width: 60%;">60%</div>
+        <div class="myper" style="width: 50%;">50%</div>
       </div>
     </div>
+
     <div class="skill-section">
       <span style="font-size: 18px;">Java</span>
       <div class="total">
-        <div class="myper" style="width: 70%;">70%</div>
+        <div class="myper" style="width: 55%;">55%</div>
       </div>
     </div>
+
     <div class="skill-section">
       <span style="font-size: 18px;">Canvas</span>
       <div class="total">
         <div class="myper" style="width: 60%;">60%</div>
       </div>
     </div>
+
     <div class="skill-section">
       <span style="font-size: 18px;">Adobe Photoshop</span>
       <div class="total">
         <div class="myper" style="width: 30%;">30%</div>
       </div>
     </div>
+
   </div>
+
 </section>
 
-
+<!-- EDUCATION SECTION -->
 <section id="4" class="Education">
   <h2>Education</h2>
-  <div>
-    <div class="education-card">
-      <img src="./Images/sreenidhi.png" style="border-radius: 50%;" alt="Project1" class="img">
-      <div class="edu-content">
-        <h3>Sreenidhi Institute of Science and Technology</h3>
-        <p>BTech, Electronics and Computer Engineering</p>
-        <p>2021-2025</p>
-        <h5>CGPA: 8.57</h5>
+  <br>
+  <br>
+
+  <div class=" container-fluid display-cards">
+    <div class="card col-sm-1" style="width: 18rem;">
+      <img src="./Images/sreenidhi.png" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
+      <div class="card-body">
+        <h5 class="card-title">Sreenidhi Institute of Science and Technology</h5>
+        <p style="color:grey;">BTech, Electronics and Computer Engineering</p>
+        <p style="color:grey;"><i>2021-2025</i></p>    
+        <p> CGPA: 8.57</p>    
       </div>
     </div>
-    <div class="education-card">
-      <img src="./Images/sri chaitanya.jpeg" style="border-radius: 50%;" alt="Project1" class="img">
-      <div class="edu-content">
-        <h3>Sree Chaitanya Junior Kalasala, Hyderabad</h3>
-        <p>Intermediate, MPC</p>
-        <p>2019-2021</p>
-        <h5>Percentage: 97%</h5>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./Images/sri chaitanya.jpeg" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
+      <div class="card-body">
+        <h5 class="card-title">Sree Chaitanya Junior Kalasala, Hyderabad</h5>
+        <p style="color:grey;">Intermediate, MPC</p>
+        <br>
+        <p style="color:grey;"><i>2019-2021</i></p>    
+        <p>Percentage: 97%</p>    
       </div>
     </div>
-    <div class="education-card">
-      <img src="./Images/bps.jpeg" style="border-radius: 50%;" alt="Project1" class="img">
-      <div class="edu-content">
-        <h3>Bhadrachalam Public School & JR. College</h3>
-        <p>High School, CBSE</p>
-        <p>2014-2018</p>
-        <h5>Percentage: 78%</h5>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./Images/bps.jpeg" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
+      <div class="card-body">
+        <h5 class="card-title">Bhadrachalam Public School & JR. College</h5>
+        <p style="color:grey;">High School, CBSE</p>
+        <br>
+        <p style="color:grey;"><i>2014-2018</i></p>    
+        <p>Percentage: 78%</p>    
       </div>
     </div>
   </div>
 </section>
 
-<section id="5" class="Experiences">
+<!-- EXPERIENCE SECTION -->
+<section id="5" class="Experience">
   <h2>Experience</h2>
-  <div class="section-experience">
+  <br>
+  <br>
 
-      <div class="row">
-        <div class="row-ele">
-          <i class="bi bi-diagram-3-fill" style="font-size: 50px; margin: 120px;"></i>
-          <p class="Experience-title">Joint Secretary for External Affairs</p>
-          <p style="color:grey;">The Robotics Club - SNIST</p>
-          <p style="color:grey;"><i>Jul 2023 - Present</i></p>
-          <br>
-          <p> Managed the official web handles of the club and taught the concepts of web Development to the club Juniors. </p>
+  <div class=" container-fluid display-cards">
+    <div class="card" style="width: 18rem;">
+      <i class="bi bi-diagram-3-fill" style="font-size: 50px;"></i>
+      <div class="card-body">
+        <h5 class="card-title">Joint Secretary for External Affairs</h5>
+        <p style="color:grey;">The Robotics Club - SNIST</p>
+        <p style="color:grey;"><i>Jul 2023 - Present</i></p>    
+        <p> Managed the official web handles of the club and taught the concepts of web Development to the club Juniors. </p>    
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <i class="bi bi-coin" style="font-size: 50px;"></i>
+      <div class="card-body">
+        <h5 class="card-title">Marketing Deputy</h5>
+        <br>
+        <p style="color:grey;">Roboveda' 23</p>
+        <p style="color:grey;"><i>Sep 2023 - Nov 2023</i></p>    
+        <p> As a Marketing Deputy for Roboveda'23, Visited few of the companies for sponsorship and helped in rasing the funds.</p>    
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <i class="bi bi-palette-fill" style="font-size: 50px;"></i>
+      <div class="card-body">
+        <h5 class="card-title">Designing Team</h5>
+        <br>
+        <p style="color:grey;">The Robotics Club - SNIST</p>
+        <p style="color:grey;"><i>Oct 2022 - Nov 2023</i></p>    
+        <p> Designed few posters, banners and videos for the Club.</p>    
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <i class="bi bi-person-workspace" style="font-size: 50px;"></i>
+      <div class="card-body">
+        <h5 class="card-title">Student Mentor</h5>
+        <br>
+        <p style="color:grey;">The Robotics Club - SNIST</p>
+        <p style="color:grey;"><i>Feb 2023 - Jun 2023</i></p>    
+        <p>Guided a group of 9 students in Completing a project</p>    
+      </div>
+    </div>
+  </div>
+
+</section>
+
+  <!-- PROJECTS SECTION -->
+<section id="6" class="projects">
+  <h2>Projects</h2>
+  <br>
+  <br>
+  <div class=" container-fluid display-cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/project1.png" class="card-img-top" alt="Project1">
+        <div class="card-body">
+          <h5 class="card-title">Pets Health Monitoring System</h5>
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+          <a href="https://www.electronicwings.com/users/saiganeshratnala1976/projects/3210/pets-health-monitoring-system" class="btn btn-dark projects-button">Know More</a>
         </div>
-        <div class="row-ele">
-          <i class="bi bi-coin" style="font-size: 50px; margin: 120px;"></i>
-          <p class="Experience-title">Marketing Deputy</p> 
-          <p style="color:grey;">Roboveda' 23</p>
-          <p style="color:grey;"><i>Sep 2023 - Nov 2023</i></p>
-          <br>
-          <p>As a Marketing Deputy for Roboveda'23, Visited few of the companies for sponsorship and helped in rasing the funds. </p>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/project2.png" class="card-img-top" alt="Project2">
+        <div class="card-body">
+          <h5 class="card-title">Mittinrich</h5>
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+          <br> <a href="https://github.com/SUNKUSHANMUKH/terra-smart-compost" class="btn btn-dark projects-button">Know More</a>
         </div>
-        <div class="row-ele">
-          <i class="bi bi-palette-fill" style="font-size: 50px; margin: 120px;"></i>
-          <p class="Experience-title">Designing Team</p> 
-          <p style="color:grey;">The Robotics Club - SNIST</p>
-          <p style="color:grey;"><i>Oct 2022 - Nov 2023</i></p>
-          <br>
-          <p>Designed few posters, banners and videos for the Club. <br> <b></b> </p>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/project3.png" class="card-img-top" alt="project3">
+        <div class="card-body">
+          <h5 class="card-title">Swatch Neer</h5>
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+          <br> <a href="https://github.com/saiganesh1976/Swatch-Neer" class="btn btn-dark projects-button">Know More</a>
         </div>
-        <div class="row-ele">
-          <i class="bi bi-person-workspace" style="font-size: 50px; margin: 120px;"></i>
-          <p class="Experience-title">Student Mentor</p> 
-          <p style="color:grey;">The Robotics Club - SNIST</p>
-          <p style="color:grey;"><i>Feb 2023 - Jun 2023</i></p>
-          <br>
-          <p> Guided a group of 9 students in Completing a project   </p>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/project4.png" class="card-img-top" alt="Project4">
+        <div class="card-body">
+          <h5 class="card-title">Ratnala's Bank</h5>
+          <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+        <br> <a href="https://github.com/saiganesh1976/Ratnala-s-Bank" class="btn btn-dark projects-button">Know More</a>
         </div>
       </div>
   </div>
+
 </section>
 
-  <!-- Projects -->
-  <section id="6" class="Projects">
-    <h2>Projects</h2>
-    <br>
-    <br>
-    <div class="display">
-    <div class="card">
-      <img src="./Images/project1.png" alt="Project1" class="img">
-      <div class="container">
-        <h4>Pets Health Monitoring System</h4>
-          <a href="https://www.electronicwings.com/users/saiganeshratnala1976/projects/3210/pets-health-monitoring-system" target="_blank">
-            <button>Know More</button>
-          </a>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./Images/project2.png" alt="Project2" class="img">
-      <div class="container">
-        <h4>Mittinrich</h4>
-            <a href="https://github.com/SUNKUSHANMUKH/terra-smart-compost" target="_blank">
-              <button>Know More</button>
-            </a>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./Images/project3.png" alt="Project3" class="img">
-      <div class="container">
-        <h4>Swatch Neer</h4>
-        <a href="https://github.com/saiganesh1976/Swatch-Neer" target="_blank">
-          <button>Know More</button>
-        </a>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./Images/project4.png" alt="Project3" class="img">
-      <div class="container">
-        <h4>Ratnala's Bank</h4>
-        <a href="https://github.com/saiganesh1976/Ratnala-s-Bank" target="_blank">
-        <button >Know More</button>
-        </a>
-      </div>
-    </div>
-    </div>
-
-  </section>
-<!-- end of projects -->
-
-<!-- START CONTACT SECTION -->
+<!-- CONTACT AND FOOTER SECTION -->
 <section id="7" class="contact">
   <div class="footer-text">
-    <h2>Thank You!!</h2> Do Vist Again.
+    <h2>Thank You!!</h2> Do Vist Again. <br>
      If you'd like to get in touch, feel free to reach out to me.
   </div>
-  <div class="footer-links">
-   <p class="footer-links-text">Do Check </p>
-    <ul class="links">
-      <li><a href="#1">Home</a></li>
-      <li><a href="#2">About</a></li>
-      <li><a href="#3">Skills</a></li>
-      <li><a href="#4">Education</a></li>
-      <li><a href="#5">Experiences</a></li>
-      <li><a href="#6">Projects</a></li>
-    </ul>
-  </div>
-  <div class="handles">
-    <p class="footer-links-text1">Contact</p>
-    <div class="social">
-      <a href="tel:+91 6305279018"><i class="bi bi-telephone-fill"  class="icon" style="padding: 10px;"></i>+91 630 527 9018</a> <br>
-      <a href="mailto:saiganeshratnala01@gmail.com" ><i class="bi bi-envelope-at-fill"  class="icon" style="padding: 10px;"></i>saiganeshratnala01@gmail.com</a>          <br>
-      <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank"><i class="bi bi-linkedin" class="icon" style="padding: 10px;"></i>Sai Ganesh Ratnala</a> <br>
-      <a href="https://instagram.com/saiganesh_ratnala" target="_blank"><i class="bi bi-instagram"  class="icon" style="padding: 10px;"></i>saiganesh_ratnala</a> <br>
-      <a href="https://github.com/saiganesh1976" target="_blank"><i class="bi bi-github"  class="icon" style="padding: 10px;"></i> saiganesh1976</a>  <br>
-      <a href="https://maps.app.goo.gl/67CNktbw4iwKV6rRA"><i class="bi bi-geo-alt-fill" class="icon" style="padding: 10px;"></i> H.No: 8-199/11, Sarapaka, Telangana- 507 128</a>
-    </div>     
+  <div class="footer-link-section">
+    <div class="footer-links">
+    <p class="footer-links-head">Do Check </p>
+      <ul class="links">
+        <li><a href="#1">Home</a></li>
+        <li><a href="#2">About</a></li>
+        <li><a href="#3">Skills</a></li>
+        <li><a href="#4">Education</a></li>
+        <li><a href="#5">Experiences</a></li>
+        <li><a href="#6">Projects</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <p class="footer-links-head">Contact</p>
+      <div class="social">
+        <a href="tel:+91 6305279018"><i class="bi bi-telephone-fill"  class="icon" style="padding: 10px;"></i>+91 630 527 9018</a> <br>
+        <a href="mailto:saiganeshratnala01@gmail.com" ><i class="bi bi-envelope-at-fill"  class="icon" style="padding: 10px;"></i>saiganeshratnala01@gmail.com</a>          <br>
+        <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank"><i class="bi bi-linkedin" class="icon" style="padding: 10px;"></i>Sai Ganesh Ratnala</a> <br>
+        <a href="https://instagram.com/saiganesh_ratnala" target="_blank"><i class="bi bi-instagram"  class="icon" style="padding: 10px;"></i>saiganesh_ratnala</a> <br>
+        <a href="https://github.com/saiganesh1976" target="_blank"><i class="bi bi-github"  class="icon" style="padding: 10px;"></i> saiganesh1976</a>  <br>
+        <a href="https://maps.app.goo.gl/67CNktbw4iwKV6rRA"><i class="bi bi-geo-alt-fill" class="icon" style="padding: 10px;"></i> H.No: 8-199/11, Sarapaka, Telangana- 507 128</a>
+      </div>     
+    </div>
   </div>
 </section>
-<footer class="footer">
-  <p>All Copyrights are reserved 2023</p>
-  <p> &copy; Created by SaiGanesh Ratnala</p>
-</footer>
+<section class="credits">
+  <p> &copy; All Copyrights are reserved 2023</p>
+  <p> Created by SaiGanesh Ratnala</p>
+</section>
+
+<!-- script-bootstrap CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

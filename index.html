@@ -17,17 +17,15 @@
 <body>
 
 <!-- Nav Bar -->
-<nav class="navbar fixed-top navbar-expand-lg">
-  <h1>
-    <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank" class="title-css">SaiGanesh_Ratnala</a>
-  </h1>
+<nav class="navbar fixed-top navbar-expand-lg ">
+    <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank" class="navbar-brand">SaiGanesh_Ratnala</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
+      <ul class="navbar-nav">
+        <li class="nav-item active"> 
           <a class="nav-link" href="#1">Home</a>
         </li>
         <li class="nav-item">
@@ -54,17 +52,19 @@
 
 
 <!-- WELCOME SECTION -->
-<section id="1" class="container-fluid main" >
+<section id="1" class="main" >
   <div class="main-left">
     <h2 class="main-left-text">Hello There,</h2>
     <h1>I'm SaiGanesh Ratnala </h1>
     <p>undergrad at SNIST-HYD</p>
     <button class="btn btn-dark button"><a href="./SaiGanesh_Resume.pdf" download><i class="bi bi-download"></i> &nbsp; My Resume</a></button>
   </div>
-  <div class="main-image">
-    <img src="./Images/Sai Ganesh.jpg" alt="profile"  width="350px" height="350px"style="border-radius: 50%;">
-    <div class="text">
+  <div class="main-right">
+    <div class="image-container">
+      <img src="./Images/Sai Ganesh.jpg" alt="profile">
+      <div class="text">
         <a href="https://www.linkedin.com/in/ratnala-saiganesh" target="_blank">HIRE ME !!</a></div>
+      </div>
     </div>
   </div>
 </section>
@@ -95,7 +95,8 @@
 <!-- SKILLS SECTION -->
 <section id="3" class="Skills">
   <h2>My Skills</h2>
-    
+    <br>
+    <br>
   <div class="Skill-reading">
     <div class="skill-section">
       <span style="font-size: 18px;">HTML</span>
@@ -149,38 +150,41 @@
   <br>
   <br>
 
-  <div class=" container-fluid display-cards">
-    <div class="card col-sm-1" style="width: 18rem;">
-      <img src="./Images/sreenidhi.png" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Sreenidhi Institute of Science and Technology</h5>
-        <p style="color:grey;">BTech, Electronics and Computer Engineering</p>
-        <p style="color:grey;"><i>2021-2025</i></p>    
-        <p> CGPA: 8.57</p>    
+  <div class="grid-wrapper">
+    <div class="row">
+      
+      <div class="card " style="width: 18rem;">
+        <img src="./Images/sreenidhi.png" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
+        <div class="card-body">
+          <h5 class="card-title">Sreenidhi Institute of Science and Technology</h5>
+          <p style="color:grey;">BTech, Electronics and Computer Engineering</p>
+          <p style="color:grey;"><i>2021-2025</i></p>    
+          <p> CGPA: 8.57</p>    
+        </div>
       </div>
-    </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="./Images/sri chaitanya.jpeg" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Sree Chaitanya Junior Kalasala, Hyderabad</h5>
-        <p style="color:grey;">Intermediate, MPC</p>
-        <br>
-        <p style="color:grey;"><i>2019-2021</i></p>    
-        <p>Percentage: 97%</p>    
+      <div class="card" style="width: 18rem;">
+        <img src="./Images/sri chaitanya.jpeg" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
+        <div class="card-body">
+          <h5 class="card-title">Sree Chaitanya Junior Kalasala, Hyderabad</h5>
+          <p style="color:grey;">Intermediate, MPC</p>
+          <br>
+          <p style="color:grey;"><i>2019-2021</i></p>    
+          <p>Percentage: 97%</p>    
+        </div>
       </div>
+    
+      <div class="card " style="width: 18rem;">
+        <img src="./Images/bps.jpeg" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
+        <div class="card-body">
+          <h5 class="card-title">Bhadrachalam Public School & JR. College</h5>
+          <p style="color:grey;">High School, CBSE</p>
+          <br>
+          <p style="color:grey;"><i>2014-2018</i></p>    
+          <p>Percentage: 78%</p>    
+        </div>
     </div>
-
-    <div class="card" style="width: 18rem;">
-      <img src="./Images/bps.jpeg" class="card-img-top" alt="Project1" style="width:180px; margin: 0px 40px;">
-      <div class="card-body">
-        <h5 class="card-title">Bhadrachalam Public School & JR. College</h5>
-        <p style="color:grey;">High School, CBSE</p>
-        <br>
-        <p style="color:grey;"><i>2014-2018</i></p>    
-        <p>Percentage: 78%</p>    
-      </div>
-    </div>
+    
   </div>
 </section>
 
@@ -189,15 +193,16 @@
   <h2>Experience</h2>
   <br>
   <br>
+  <div class="grid-wrapper">
+    <div class="row">
 
-  <div class=" container-fluid display-cards">
-    <div class="card" style="width: 18rem;">
-      <i class="bi bi-diagram-3-fill" style="font-size: 50px;"></i>
-      <div class="card-body">
-        <h5 class="card-title">Joint Secretary for External Affairs</h5>
-        <p style="color:grey;">The Robotics Club - SNIST</p>
-        <p style="color:grey;"><i>Jul 2023 - Present</i></p>    
-        <p> Managed the official web handles of the club and taught the concepts of web Development to the club Juniors. </p>    
+      <div class="card" style="width: 18rem;">
+        <i class="bi bi-diagram-3-fill" style="font-size: 50px;"></i>
+        <div class="card-body">
+          <h5 class="card-title">Joint Secretary for External Affairs</h5>
+          <p style="color:grey;">The Robotics Club - SNIST</p>
+          <p style="color:grey;"><i>Jul 2023 - Present</i></p>    
+          <p> Managed the official web handles of the club and taught the concepts of web Development to the club Juniors. </p>    
       </div>
     </div>
 
@@ -222,7 +227,7 @@
         <p> Designed few posters, banners and videos for the Club.</p>    
       </div>
     </div>
-
+    
     <div class="card" style="width: 18rem;">
       <i class="bi bi-person-workspace" style="font-size: 50px;"></i>
       <div class="card-body">
@@ -234,7 +239,8 @@
       </div>
     </div>
   </div>
-
+</div>
+  
 </section>
 
   <!-- PROJECTS SECTION -->
@@ -242,7 +248,9 @@
   <h2>Projects</h2>
   <br>
   <br>
-  <div class=" container-fluid display-cards">
+  <div class="grid-wrapper">
+    <div class="row">
+
       <div class="card" style="width: 18rem;">
         <img src="./Images/project1.png" class="card-img-top" alt="Project1">
         <div class="card-body">
@@ -251,7 +259,7 @@
           <a href="https://www.electronicwings.com/users/saiganeshratnala1976/projects/3210/pets-health-monitoring-system" class="btn btn-dark projects-button">Know More</a>
         </div>
       </div>
-
+      
       <div class="card" style="width: 18rem;">
         <img src="./Images/project2.png" class="card-img-top" alt="Project2">
         <div class="card-body">
@@ -260,7 +268,7 @@
           <br> <a href="https://github.com/SUNKUSHANMUKH/terra-smart-compost" class="btn btn-dark projects-button">Know More</a>
         </div>
       </div>
-
+      
       <div class="card" style="width: 18rem;">
         <img src="./Images/project3.png" class="card-img-top" alt="project3">
         <div class="card-body">
@@ -276,10 +284,11 @@
           <h5 class="card-title">Ratnala's Bank</h5>
           <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
         <br> <a href="https://github.com/saiganesh1976/Ratnala-s-Bank" class="btn btn-dark projects-button">Know More</a>
-        </div>
       </div>
+    </div>
   </div>
-
+</div>
+  
 </section>
 
 <!-- CONTACT AND FOOTER SECTION -->
@@ -313,6 +322,7 @@
     </div>
   </div>
 </section>
+
 <section class="credits">
   <p> &copy; All Copyrights are reserved 2023</p>
   <p> Created by SaiGanesh Ratnala</p>
